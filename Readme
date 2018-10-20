@@ -1,0 +1,10 @@
+* README *
+
+ - PLease use my train,val,test data to run my code. Didn't change anything except delimiter between first and second column. There appears to be some buggy rows in  original train text file with '\t' delimiter. ( A bunch of lines were read together into a single line when using pandas, If I recollect, it's line 288 or 287 in original tsv file). So had to change the delimeter to '+-+-+-+-+-+-+-+-+-'
+ 
+- If you have jupyter, please use the notebook.. all lines are commented. Code can be run cell by cell
+
+- Packages used - Pandas, re, numpy, keras, sklearn
+
+- Char RNN Model is defined in cell 28
+
